@@ -51,11 +51,17 @@ nav{
     height: auto;
   }
   .nav-bar ul{
-    display: none;
-  }
-  .nav-bar ul.show{
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: -200px;
+    height: 0;
+    transition: .3s;
+  }
+  .nav-bar ul.show{
+    top: 0px;
+    height: 110px;
+    transition: .3s;
   }
   .nav-bar ul.show li{
     width: 90%;
