@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
+import Home from "./pages/Home"
 import Experience from "./pages/Experience"
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Experience />
+      <Home />
       <Footer />
     </>
   )

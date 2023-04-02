@@ -1,0 +1,24 @@
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-photo{
+    text-align: center;
+    background-color: pink;
+    padding: 25px 0px;
+}
+
+.profile-photo div{
+    background-color: rgb(161, 120, 120);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0px auto;
+    border: 1px solid rgb(166, 77, 77);
+}
+
+.profile-photo img{
+    width: 350px;
+}
