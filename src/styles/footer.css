@@ -1,0 +1,24 @@
+footer{
+    background-color: grey;
+    /* position: absolute;
+    bottom: 0; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: -webkit-fill-available;
+}
+.profile{
+    font-size: 30px;
+}
+
+.profile a{
+    cursor: pointer;
+}
+
+.workLinks{
+    width: 6cm;
+    display: flex;
+    justify-content: space-evenly;
+}
