@@ -1,9 +1,9 @@
 import React, {useRef} from 'react'
 import {FaBars} from 'react-icons/fa'
+import '../styles/navbar.css'
 
 function Navbar() {
 
-  const bars = useRef(null);
   const navPane = useRef(null);
 
   const barClick = () => {
