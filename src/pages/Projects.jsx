@@ -7,8 +7,8 @@ function Projects() {
   return (
     <>
         <ul>
-            {projects.map((project) => {
-                return <li key={project.name}><ProjectCard img={project.img} name={project.name} /></li>
+            {projects.map((project, index) => {
+                return <li key={project.name}><ProjectCard index={index} img={project.img} name={project.name} /></li>
             })}
         </ul>
     </>

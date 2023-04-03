@@ -20,9 +20,9 @@ function Navbar() {
           </button>
 
           <ul ref={navPane}>
-              <li><NavLink to={'/react-portfolio/'}>Home</NavLink ></li>
-              <li><NavLink to={'/react-portfolio/projects'}>Projects</NavLink ></li>
-              <li><NavLink to={'/react-portfolio/experience'}>Experience</NavLink ></li>
+              <li><NavLink onClick={barClick} to={'/react-portfolio/'}>Home</NavLink ></li>
+              <li><NavLink onClick={barClick} to={'/react-portfolio/projects'}>Projects</NavLink ></li>
+              <li><NavLink onClick={barClick} to={'/react-portfolio/experience'}>Experience</NavLink ></li>
           </ul>
         </nav>
     </>

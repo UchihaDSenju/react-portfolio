@@ -2,5 +2,6 @@
 
 
 Todo
-1-add react router 
-2-complete projects page
+1-card routing 
+2-css
+3-scroll going down in project-detail page

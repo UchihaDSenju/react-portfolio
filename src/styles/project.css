@@ -1,0 +1,24 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0px auto;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.project-container img{
+    width: 600px;
+    object-fit: cover;
+}
+
+.project-container h3{
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    bottom: -100px;
+}
