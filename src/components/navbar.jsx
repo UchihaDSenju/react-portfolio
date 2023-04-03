@@ -1,6 +1,7 @@
 import React, {useRef} from 'react'
 import {FaBars} from 'react-icons/fa'
 import '../styles/navbar.css'
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
 
@@ -19,9 +20,9 @@ function Navbar() {
           </button>
 
           <ul ref={navPane}>
-              <li><a href=''>Home</a ></li>
-              <li><a href=''>Projects</a ></li>
-              <li><a href=''>Experience</a ></li>
+              <li><NavLink to={'/react-portfolio'}>Home</NavLink ></li>
+              <li><NavLink to={'/react-portfolio/projects'}>Projects</NavLink ></li>
+              <li><NavLink to={'/react-portfolio/experience'}>Experience</NavLink ></li>
           </ul>
         </nav>
     </>
