@@ -2,7 +2,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
     padding: 10px;
     width: -webkit-fill-available;
   }
@@ -12,11 +11,17 @@ nav{
     justify-content: space-between;
     width: 9cm;
   }
+  a{
+    font-size: x-large;
+  }
+
+  a.active{
+    font-weight: bold;
+  }
   
   .bars{
     display: none;
     border: none;
-    background-color: aqua;
     font-size: 23px;
     cursor: pointer;
     margin-left: 95%;

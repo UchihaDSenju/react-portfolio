@@ -1,8 +1,17 @@
 import React from 'react'
+import ProjectCard from '../components/projectCard'
+import { projects } from '../helpers/projects'
+import '../styles/projectCard.css'
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <>
+        <ul>
+            {projects.map((project) => {
+                return <li key={project.name}><ProjectCard img={project.img} name={project.name} /></li>
+            })}
+        </ul>
+    </>
   )
 }
 

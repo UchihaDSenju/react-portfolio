@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/react-portfolio" element={<Home />}></Route>
+        <Route path="/react-portfolio/" element={<Home />}></Route>
         <Route path="/react-portfolio/projects" element={<Projects />}></Route>
         <Route path="/react-portfolio/experience" element={<Experience />}></Route>
       </Routes>
